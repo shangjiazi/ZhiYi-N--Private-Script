@@ -16,8 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          repository: shangjiazi/ZhiYi-N--Private-Script/Scripts/
+        with: 
+          repository: shangjiazi/ZhiYi-N--Private-Script/Scripts
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
